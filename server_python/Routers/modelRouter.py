@@ -111,4 +111,4 @@ def get_sepsis_model():
 
     except Exception as e:
         print("Error in sepsis model : ",str(e))
-        return jsonify({"message" : "Internal Server Error"}),500
+        return jsonify({"message" : "Internal Server Error"}),500
