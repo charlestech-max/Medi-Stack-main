@@ -6,4 +6,4 @@ const connectMongo = (url) =>{
     .catch((err) => console.log(err))
 }
 
-module.exports = connectMongo;
+module.exports = connectMongo;
